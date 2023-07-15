@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  body::before {
+    content: "";
+    background-image: url("../Images/backgroundimage.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.45); /* Adjust brightness value as desired to darken the background image */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color:transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 100px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color:transparent;
+    color:white;
+    padding: 8px 15px;
+    margin: 6px 0;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size:16px;
+    outline:none;
+    border:2px solid #F2A71B;
+  }
+  
+  button:hover {
+    background-color: #F2A71B;
+  }
+  
+  button:active {
+    background-color: #F2A71B;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+  .extra-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #4CAF50;
+  }
+
+  .password-container {
+    position: relative;
+  }
+  
+  .password-container .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .password-container .toggle-password:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("../Images/eye.png"); /* Replace with your eye icon image */
+    background-size: cover;
+  }
+  
+  .password-container .toggle-password.active:before {
+    background-image: url("../Images/eyecrossed.png"); /* Replace with your crossed eye icon image */
+  }
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .remember-me .checkmark {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    margin-right: 5px;
+    position: relative;
+  }
+  
+  .remember-me .checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 4px;
+    top: 1px;
+    width: 5px;
+    height: 9px;
+    border: solid #4CAF50;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  .remember-me input[type="checkbox"] {
+    display: none;
+  }
+  
+  .remember-me input[type="checkbox"]:checked + .checkmark::after {
+    display: block;
+  }
+  
+  .remember-me input[type="checkbox"]:checked + .checkmark {
+    border-color: #4CAF50;
+  }
+  
+  .remember-me input[type="checkbox"]:checked ~ label {
+    color: #4CAF50;
+  }
