@@ -5,25 +5,20 @@ body {
     height: 100vh; /* Set the body height to full viewport height */
 }
 
-.container {
-    display: flex;
-    height: 100%; /* Set the container height to full body height */
-    background-color: gray;
-}
 .admin-newsand-updates-light-admin-newsand-updates-light {
     width: 100%;
-    height: 1524px;
+    height: 1200px;
     display: flex;
     overflow: hidden;
     position: relative;
     align-items: flex-start;
     flex-shrink: 0;
-    background-color: gray;
+    background-color:gray;
   }
   .admin-newsand-updates-light-text04 {
     top: 19px;
     left: 390px;
-    color: white;
+    color: black;
     height: auto;
     position: absolute;
     font-size: 32px;
@@ -55,7 +50,6 @@ body {
     display: flex;
     overflow: hidden;
     position: absolute;
-
     align-items: flex-start;
     flex-shrink: 0;
     border-style: solid;
@@ -147,20 +141,11 @@ body {
     align-items: center;
     flex-direction: column;
   }
-  .admin-newsand-updates-light-admin-newsand-updates-light {
-    width: 100%;
-    height: 1524px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    background-color: var(--dl-color-default-t1lightprimary);
-  }
+
   .admin-newsand-updates-light-text {
-    top: 1001px;
+    top: 1125px;
     left: 106px;
-    color: var(--dl-color-default-t1white);
+
     height: auto;
     position: absolute;
     font-size: 20px;
@@ -173,12 +158,11 @@ body {
     text-decoration: none;
   }
   .admin-newsand-updates-light-text02 {
-    top: 1023px;
+    top: 1150px;
     left: 108px;
-    color: var(--dl-color-default-t1white);
     height: auto;
     opacity: 0.60;
-    position: absolute;
+    position:absolute;
     font-size: 20px;
     font-style: Regular;
     text-align: left;
@@ -188,6 +172,17 @@ body {
     font-stretch: normal;
     text-decoration: none;
   }
+  .ellipse {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 1150px;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
   .admin-newsand-updates-light-rectangle699 {
     top: 77px;
     left: 354px;
@@ -202,21 +197,8 @@ body {
     height: 76px;
     position: absolute;
   }
-  .admin-newsand-updates-light-text04 {
-    top: 19px;
-    left: 390px;
-    color: var(--dl-color-default-t1white);
-    height: auto;
-    position: absolute;
-    font-size: 32px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Prompt;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
+
+
   .admin-newsand-updates-light-frame190 {
     top: 77px;
     left: 390px;
@@ -1206,19 +1188,7 @@ body {
     height: 40px;
     position: absolute;
   }
-  .admin-newsand-updates-light-menuboar-variant3 {
-    top: 0px;
-    left: 0px;
-    width: 354px;
-    height: 1524px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.25) ;
-    align-items: flex-start;
-    flex-shrink: 0;
-    background-color: var(--dl-color-default-t1lightprimary);
-  }
+
   .admin-newsand-updates-light-text72 {
     top: 1431px;
     left: 109px;
@@ -1646,22 +1616,7 @@ body {
     height: 40px;
     position: absolute;
   }
-  .admin-newsand-updates-light-frame208 {
-    top: 0px;
-    left: 0px;
-    width: 354px;
-    height: 161px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: rgba(1, 31, 38, 1);
-    border-style: solid;
-    border-width: 0 0 1px;
-    border-radius: 0 0 15px 15px;
-    background-color: var(--dl-color-default-t1white);
-  }
+ 
   .admin-newsand-updates-light-frame1 {
     top: 20px;
     left: 43px;

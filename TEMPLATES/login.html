@@ -18,7 +18,7 @@
                 <input type="password" id="password-input" placeholder="Password" required>
                 <i class="toggle-password" id="toggle-password"></i>
             </div>
-            <button type="submit"style="font-family:'Prompt';">Sign In</button>
+            <button onclick="redirectToNextPage()";type="submit"style="font-family:'Prompt';">Sign In</button>
             <div class="extra-options">
                 <label class="remember-me">
                   <input type="checkbox" id="remember-me-checkbox">
@@ -34,7 +34,9 @@
         var togglePassword = document.getElementById("toggle-password");
         var passwordInput = document.getElementById("password-input");
         var isHolding = false;
-
+        function redirectToNextPage(){
+            window.location.href="home.html";
+        }
         togglePassword.addEventListener("mousedown", function () {
             isHolding = true;
             passwordInput.type = "text";
