@@ -8,12 +8,38 @@ body {
 .container {
     display: flex;
     height: 100%; /* Set the container height to full body height */
+    background-color: gray;
 }
+.admin-newsand-updates-light-admin-newsand-updates-light {
+    width: 100%;
+    height: 1524px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: gray;
+  }
+  .admin-newsand-updates-light-text04 {
+    top: 19px;
+    left: 390px;
+    color: white;
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Prompt;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
 .admin-newsand-updates-light-menuboar-variant3 {
   top: 0px;
   left: 0px;
   width: 354px;
-  height: 1524px;
+  height: 100%;
   display: flex;
   overflow: hidden;
   position: absolute;
@@ -32,11 +58,10 @@ body {
 
     align-items: flex-start;
     flex-shrink: 0;
-    border-color: gray;
     border-style: solid;
     border-width: 0 0 1px;
     border-radius: 0 0 15px 15px;
-    background-color: gray;
+    background-color: white;
   }
 
   .admin-newsand-updates-light-frame1 {
@@ -45,6 +70,37 @@ body {
     width: 269px;
     height: 121px;
     position: absolute;
+  }
+  .admin-newsand-updates-light-text72 {
+    top: 1431px;
+    left: 109px;
+    color: rgba(238, 243, 244, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Prompt;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-newsand-updates-light-text74 {
+    top: 1453px;
+    left: 111px;
+    color: rgba(238, 243, 244, 1);
+    height: auto;
+    opacity: 0.60;
+    position: absolute;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Prompt;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
   }
   
 .sidebar {
@@ -76,7 +132,7 @@ body {
 }
 
 .content {
-    flex: 1;
-    padding: 20px;
+    flex: 2;
+    padding: 50px;
 }
 
