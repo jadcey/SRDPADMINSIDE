@@ -58,6 +58,7 @@ body {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-family:'Prompt';
   }
   .line {
     height: 3px;
@@ -117,6 +118,7 @@ body {
   input[type="text"]:focus,
   input[type="password"]:focus {
     border-color: #4CAF50;
+    font-family:'Prompt';
   }
 
   .password-container {
@@ -199,21 +201,18 @@ body {
     }
   }
   
-  /* Adjust text alignment for smaller screens */
   @media (max-width: 768px) {
     h2, h5, .extra-options {
       text-align: center;
     }
   }
-  
-  /* Adjust line width for smaller screens */
+
   @media (max-width: 576px) {
     .line {
       width: 70%;
     }
   }
-  
-  /* Adjust button styles for smaller screens */
+
   @media (max-width: 480px) {
     button {
       padding: 8px 12px;
@@ -221,7 +220,6 @@ body {
     }
   }
   
-  /* Adjust remember me checkbox and forgot password link alignment for smaller screens */
   @media (max-width: 480px) {
     .extra-options {
       flex-direction: column;
